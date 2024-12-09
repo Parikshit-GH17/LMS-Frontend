@@ -4,12 +4,15 @@ import './index.css'
 import App from './App.jsx'
 import {BroswerRouter} from 'react-router-dom'
 import {Toaster} from 'react-hot-toast'
+import { Provider } from 'react-redux'
 
 createRoot(document.getElementById('root')).render(
+  <Provider store ={store}>
   <BroswerRouter>
   <App />
   <Toaster/>
 </BroswerRouter>
+</Provider>
    
   
 )
