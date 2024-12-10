@@ -8,7 +8,7 @@ const initialState = {
 
 const authSlice = cresteSlice({
     name:'auth',
-    initialstate,
+    initialState,
     reducers:{},
 })
 
